@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7897679202247D100EADD1F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7897678202247D100EADD1F /* DetailViewController.swift */; };
 		E7B8DA83202235EB00C0E8FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B8DA82202235EB00C0E8FA /* AppDelegate.swift */; };
 		E7B8DA85202235EB00C0E8FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B8DA84202235EB00C0E8FA /* ViewController.swift */; };
 		E7B8DA88202235EB00C0E8FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B8DA86202235EB00C0E8FA /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E7897678202247D100EADD1F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		E7B8DA7F202235EB00C0E8FA /* Emoji App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B8DA82202235EB00C0E8FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7B8DA84202235EB00C0E8FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				E7B8DA82202235EB00C0E8FA /* AppDelegate.swift */,
 				E7B8DA84202235EB00C0E8FA /* ViewController.swift */,
+				E7897678202247D100EADD1F /* DetailViewController.swift */,
 				E7B8DA86202235EB00C0E8FA /* Main.storyboard */,
 				E7B8DA89202235EB00C0E8FA /* Assets.xcassets */,
 				E7B8DA8B202235EB00C0E8FA /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7897679202247D100EADD1F /* DetailViewController.swift in Sources */,
 				E7B8DA85202235EB00C0E8FA /* ViewController.swift in Sources */,
 				E7B8DA83202235EB00C0E8FA /* AppDelegate.swift in Sources */,
 			);
