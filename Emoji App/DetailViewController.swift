@@ -12,11 +12,12 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var emojiLabel: UILabel!
     
     @IBOutlet weak var emojiDetails: UILabel!
-    var emoji = ["Empty", "No Data"] // sets defaults
+    var emoji = Emoji()
     override func viewDidLoad() {
         super.viewDidLoad()
-        emojiLabel.text = emoji[0] // data passed in from previous View Controller
-        emojiDetails.text = emoji[1] // data passed in from previous View Controller
+        emojiLabel.text = emoji.stringEmoji
+        emojiDetails.text = emoji.definition
+        // data passed in from previous View Controller
         // Do any additional setup after loading the view.
     }
 
